@@ -1,0 +1,69 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "About"
+url = "about/"
+weight = 2
+
+[[main]]
+weight = 3
+url = "events/"
+name = "Events"
+
+[[main]]
+weight = 4
+name = "Resources"
+hasChildren = true
+
+[[main]]
+parent = "Resources"
+name = "Work & Employment"
+url = "resources/work"
+
+[[main]]
+parent = "Resources"
+name = "Moving to the US"
+url = "resources/moving"
+
+[[main]]
+parent = "Resources"
+name = "College Life"
+url = "resources/college"
+
+#[[main]]
+#parent = "Pages"
+#name = "Blog"
+#url = "blog/"
+#
+#[[main]]
+#parent = "Pages"
+#name = "Categories"
+#url = "categories/"
+#
+#[[main]]
+#parent = "Pages"
+#name = "404 Page"
+#url = "404/"
+
+
+# footer menu
+[[footer]]
+name = "About"
+url = "about/"
+weight = 1
+
+[[footer]]
+name = "Events"
+url = "events/"
+weight = 2
+
+[[footer]]
+name = "Contact"
+url = "contact/"
+weight = 3
