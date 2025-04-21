@@ -3,7 +3,7 @@
 banner:
   title: "MIT International Student Association"
   content: 
-  image: #"/images/banner.png"
+  image: "/images/banner.png"
   button:
     enable: true
     label: "Join our mailing list"
@@ -12,7 +12,7 @@ banner:
 # Features
 features:
   - title: "Our Mission"
-    image: #"/images/service-1.png"
+    image: "/images/service-1.png"
     content: |
       The International Student Association at MIT or ISA for short, was established to bring together the greatly diverse international community at MIT and to support international causes on campus.
 
@@ -24,7 +24,7 @@ features:
       link: "https://discord.gg/xavkTjqfAH"
 
   - title: "Our Events"
-    image: #"/images/service-2.png"
+    image: "/images/service-2.png"
     content: "We host formals and weekly study breaks with food."
     bulletpoints:
     button:
