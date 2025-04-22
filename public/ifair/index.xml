@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iFair on MIT ISA</title>
-    <link>//localhost:1313/ifair/</link>
+    <link>https://isa.mit.edu/ifair/</link>
     <description>Recent content in iFair on MIT ISA</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="//localhost:1313/ifair/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://isa.mit.edu/ifair/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
