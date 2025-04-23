@@ -7,7 +7,7 @@ sponsor_tiers:
     title: "Platinum"
     sponsors:
       - name: "HRT"
-        logo: "/images/sponsors/hrt.png"
+        logo: "/images/sponsors/HRT.png"
         link: "https://www.hudsonrivertrading.com/"
       - name: "Jane Street"
         logo: "/images/sponsors/jane-street.png"
