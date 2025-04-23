@@ -1,0 +1,69 @@
+{{ with site.GetPage "sections/sponsors" }}
+  {{ if .Params.enable }}
+    <section class="section bg-theme-light dark:bg-darkmode-theme-light">
+      <div class="container">
+        <div class="row">
+          <div class="mx-auto mb-12 text-center lg:col-8">
+            <h2 class="mb-4">{{ .Title }}</h2>
+            <p>{{ .Params.description }}</p>
+          </div>
+        </div>
+        <!-- Platinum Sponsors -->
+        {{ with .Params.sponsor_tiers.platinum }}
+          <div class="mb-16">
+            <h3 class="text-2xl font-bold mb-8 text-center">{{ .title }}</h3>
+            <div class="row items-center justify-center gap-x-12 gap-y-8">
+              {{ range .sponsors }}
+                <div class="md:col-5">
+                  <a href="{{ .link }}" target="_blank" rel="noopener" class="block transition hover:opacity-75">
+                    {{ if eq .name "HRT" }}
+                    <div class="bg-[#ff9934] rounded-lg p-8 flex items-center justify-center min-h-[200px]">
+                      {{ partial "image" (dict "Src" .logo "Alt" .name "Class" "mx-auto w-full h-auto object-contain" "Size" "400x200") }}
+                    </div>
+                    {{ else }}
+                    <div class="flex items-center justify-center min-h-[120px]">
+                      {{ partial "image" (dict "Src" .logo "Alt" .name "Class" "mx-auto w-full h-auto object-contain" "Size" "400x120") }}
+                    </div>
+                    {{ end }}
+                  </a>
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        {{ end }}
+
+        <!-- Gold Sponsors -->
+        {{ with .Params.sponsor_tiers.gold }}
+          <div class="mb-16">
+            <h3 class="text-xl font-bold mb-8 text-center">{{ .title }}</h3>
+            <div class="row items-center justify-center">
+              {{ range .sponsors }}
+                <div class="mb-8 md:col-4">
+                  <a href="{{ .link }}" target="_blank" rel="noopener" class="block transition hover:opacity-75">
+                    {{ partial "image" (dict "Src" .logo "Alt" .name "Class" "mx-auto max-h-14" "Size" "280x") }}
+                  </a>
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        {{ end }}
+
+        <!-- iFair Sponsors -->
+        {{ with .Params.sponsor_tiers.ifair }}
+          <div class="mb-8">
+            <h3 class="text-xl font-bold mb-8 text-center">{{ .title }}</h3>
+            <div class="row items-center justify-center flex-wrap gap-y-6">
+              {{ range .sponsors }}
+                <div class="md:col-3 lg:col-2">
+                  <a href="{{ .link }}" target="_blank" rel="noopener" class="block transition hover:opacity-75">
+                    {{ partial "image" (dict "Src" .logo "Alt" .name "Class" "mx-auto max-h-12" "Size" "160x") }}
+                  </a>
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+{{ end }} 

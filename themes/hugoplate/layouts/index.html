@@ -73,6 +73,10 @@
   {{ end }}
   <!-- /Features -->
 
+  <!-- Sponsors -->
+  {{ partial "components/sponsors" . }}
+  <!-- /Sponsors -->
+
   <!-- Testimonials -->
   {{ with site.GetPage "sections/testimonial" }}
     {{ if .Params.enable }}
