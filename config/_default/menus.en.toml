@@ -16,30 +16,30 @@ weight = 2.5
 name = "iFair"
 url = "ifair/"
 
-[[main]]
-weight = 3
-url = "events/"
-name = "Events"
+# [[main]]
+# weight = 3
+# url = "events/"
+# name = "Events"
 
-[[main]]
-weight = 4
-name = "Resources"
-hasChildren = true
+# [[main]]
+# weight = 4
+# name = "Resources"
+# hasChildren = true
 
-[[main]]
-parent = "Resources"
-name = "Work & Employment"
-url = "resources/work"
+# [[main]]
+# parent = "Resources"
+# name = "Work & Employment"
+# url = "resources/work"
 
-[[main]]
-parent = "Resources"
-name = "Moving to the US"
-url = "resources/moving"
+# [[main]]
+# parent = "Resources"
+# name = "Moving to the US"
+# url = "resources/moving"
 
-[[main]]
-parent = "Resources"
-name = "College Life"
-url = "resources/college"
+# [[main]]
+# parent = "Resources"
+# name = "College Life"
+# url = "resources/college"
 
 #[[main]]
 #parent = "Pages"

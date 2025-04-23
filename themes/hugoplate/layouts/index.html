@@ -1,10 +1,11 @@
 {{ define "main" }}
   <!-- Banner -->
   {{ with .Params.banner }}
-    <section class="section pt-14">
+    <section class="section bg-fixed bg-center bg-cover" 
+    {{ partial "bg-image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" ) | safeHTMLAttr }}>
       <div class="container">
         <div class="row justify-center">
-          <div class="lg:col-7 mb-8 text-center">
+          <div class="lg:col-12 mb-8 text-center">
             <h1 class="mb-4">
               {{ .title | markdownify }}
             </h1>
@@ -19,9 +20,6 @@
                 </a>
               {{ end }}
             {{ end }}
-          </div>
-          <div class="col-12">
-            {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[800px]" ) }}
           </div>
         </div>
       </div>
