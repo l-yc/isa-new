@@ -1,47 +1,30 @@
 ---
 title: "iFair"
-meta_title: "About"
-description: "this is meta description"
+meta_title: "iFair 2025 - MIT's International Cultural Festival"
+description: "Join us for MIT's biggest international cultural festival featuring performances, food, and cultural exhibitions"
 #image: "/images/avatar.png"
 draft: false
 ---
 
-The international community at MIT comprises about 10.12% of the undergraduate and 41.95% of the graduate student body. (For specific statistics refer to the International Students Office).
+{{< ifair-hero >}}
 
-The International Student's Association at MIT works for and with MIT's international students, striving to promote cultural diversity on campus.
+{{< ifair-then-now >}}
 
-Although most of our members are international students, the ISA welcomes and encourages every MIT Student to join.
+{{< ifair-schedule >}}
 
-## Constitution
+## About iFair
 
-The ISA got recently re-recognized as an ASA club and has a renovated constitution.
-
-## Activities
-
-The ISA's main activities are aimed at expressing the large cultural diversity that exists at MIT.
-
-- Fun-filled trips around the Boston and New-England area for multicultural bonding
-- Delicious study breaks with those international snacks that remind you of home
-- An international showcase known as the iFair
-- An evening on the Charles in the magnificent iCruise
-- Many other things so visit frequently our news and events spaces for more information
+The international community at MIT comprises about 10.12% of the undergraduate and 41.95% of the graduate student body. iFair is MIT's premier international cultural festival, bringing together the diverse cultural clubs and communities on campus for a day of celebration, learning, and exchange.
 
 ## Get Involved
-Do you want to participate in the ISA? There are many things you can do!
 
-- Contribute with ideas and propose activities, we'll try to sponsor them and you can help us organise them!
-- Volunteer to help us during events! It's a great way to meet other international students
-- Give us your feedback about past events, our webpage, etc!
+Want to participate in iFair? Here's how you can get involved:
 
-## Join the committee!
-
-- You can become an Executive Committee Member.
-- Elections for all positions in the board are held at the end of each academic year.
-
-## Social Media
-
-Make sure you follow us on Instagram and Facebook. You can also join our Discord server and our mailing list to receive more information about our events.
+- **Perform at iFair**: If your cultural club would like to perform, contact us
+- **Run a Cultural Booth**: Share your culture through interactive displays and activities
+- **Volunteer**: Help us make this event a success
+- **Attend**: Mark your calendar for April 25th and join us at Kresge Oval!
 
 ## Contact
 
-Email us at isa-execcom@mit.edu!
+For any questions about iFair, email us at isa-execcom@mit.edu

@@ -1,0 +1,27 @@
+<div class="py-16 bg-theme-light dark:bg-darkmode-theme-light">
+  <div class="container">
+    <h2 class="text-3xl font-bold text-center mb-12">iFair Through the Years</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {{ range (slice 
+          (dict "img" "/images/ifair/archive/1.jpg" "caption" "Cultural performances at iFair 2012") 
+          (dict "img" "/images/ifair/archive/2.jpg" "caption" "Food stalls and cultural displays") 
+          (dict "img" "/images/ifair/archive/3.jpg" "caption" "Traditional costumes showcase")
+          (dict "img" "/images/ifair/archive/4.jpg" "caption" "Interactive cultural activities")
+          (dict "img" "/images/ifair/archive/5.jpg" "caption" "Community gathering at Kresge")
+          (dict "img" "/images/ifair/archive/6.jpg" "caption" "Global cuisine sampling")) }}
+        <div class="group relative overflow-hidden rounded-lg">
+          <img 
+            src="{{ .img }}" 
+            alt="{{ .caption }}"
+            class="w-full h-64 object-cover transition duration-300 group-hover:scale-110"
+          >
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
+            <div class="absolute bottom-0 p-4 text-white">
+              <p class="text-sm">{{ .caption }}</p>
+            </div>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</div> 

@@ -1,0 +1,37 @@
+<div class="py-16 bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-900 dark:to-gray-800">
+  <div class="container">
+    <div class="max-w-4xl mx-auto">
+      <!-- Archive Timeline -->
+      <div class="relative space-y-8">
+        <!-- Vertical line -->
+        <div class="absolute left-8 top-0 h-full w-0.5 bg-gradient-to-b from-blue-500 via-purple-500 to-pink-500 md:left-1/2"></div>
+
+        <!-- Archive items -->
+        {{ range (slice 
+            (dict "year" "2012" "title" "Last iFair Celebration" "desc" "The final iFair before its decade-long hiatus featured over 30 cultural clubs and drew hundreds of attendees to Kresge Oval." "img" "/images/ifair/archive/2012.jpg")
+            (dict "year" "2010" "title" "Cultural Extravaganza" "desc" "A memorable year featuring traditional performances, international cuisines, and cultural exhibitions from across the globe." "img" "/images/ifair/archive/2010.jpg")
+            (dict "year" "2008" "title" "Global Village" "desc" "One of our largest celebrations with participation from multiple student organizations and cultural groups." "img" "/images/ifair/archive/2008.jpg")
+            (dict "year" "2006" "title" "Inaugural Modern iFair" "desc" "The first modern iteration of iFair, establishing many of the traditions we continue today." "img" "/images/ifair/archive/2006.jpg")) }}
+          <div class="relative flex flex-col md:flex-row items-center">
+            <!-- Year marker -->
+            <div class="absolute left-8 w-4 h-4 rounded-full bg-primary border-4 border-white dark:border-gray-900 md:left-1/2 md:-ml-2"></div>
+            
+            <!-- Content -->
+            <div class="ml-24 md:ml-0 md:w-1/2 {{ if modBool .year 2 }}md:pr-12 text-right{{ else }}md:pl-12 md:order-1{{ end }}">
+              <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transform transition hover:-translate-y-1">
+                {{ if .img }}
+                <img src="{{ .img }}" alt="iFair {{ .year }}" class="w-full h-48 object-cover">
+                {{ end }}
+                <div class="p-6">
+                  <h3 class="text-2xl font-bold mb-2">{{ .year }}</h3>
+                  <h4 class="text-xl font-semibold mb-3 text-primary">{{ .title }}</h4>
+                  <p class="text-gray-600 dark:text-gray-300">{{ .desc }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div> 
