@@ -16,7 +16,7 @@ features:
     content: |
       The International Student Association at MIT or ISA for short, was established to bring together the greatly diverse international community at MIT and to support international causes on campus.
 
-      The ISA works to bring elements from our distinct and richly diverse cultural backgrounds to share them with the MIT community at a cultural, academic,and social level.
+      The ISA works to bring elements from our distinct and richly diverse cultural backgrounds to share them with the MIT community at a cultural, academic, and social level.
     bulletpoints:
     button:
       enable: true

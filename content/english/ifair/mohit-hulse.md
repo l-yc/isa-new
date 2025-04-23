@@ -1,6 +1,6 @@
 ---
-title: Caroline Liu
-email: caroliu@mit.edu
+title: Mohit Hulse
+email: ygao7@mit.edu
 image: "/images/avatar.png"
 description: this is meta description
 social:
@@ -16,5 +16,3 @@ social:
     icon: fa-brands fa-linkedin
     link: https://linkedin.com
 ---
-
-Madame president 2
