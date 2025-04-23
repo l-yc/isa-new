@@ -3,7 +3,7 @@
 banner:
   title: "MIT International Student Association"
   content: 
-  image: "/images/banner.png"
+  image: "/images/banner.jpg"
   button:
     enable: true
     label: "Join our mailing list"
