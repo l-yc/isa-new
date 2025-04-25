@@ -51,6 +51,6 @@ Join our community and stay updated:
 
 {{< social-links >}}
 - **Email**: [isa-execcom@mit.edu](mailto:isa-execcom@mit.edu)
-- **Instagram**: [@mit_isa](https://instagram.com/mit_isa)
+- **Instagram**: [@mit_international](https://www.instagram.com/mit_international/)
 - **Facebook**: [MIT ISA](https://facebook.com/mitisa)
 {{< /social-links >}}
