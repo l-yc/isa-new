@@ -33,11 +33,6 @@ Do you want to participate in the ISA? There are many things you can do!
 - Volunteer to help us during events! It's a great way to meet other international students
 - Give us your feedback about past events, our webpage, etc!
 
-## Join the committee!
-
-- You can become an Executive Committee Member.
-- Elections for all positions in the board are held at the end of each academic year.
-
 ## Social Media
 
 Make sure you follow us on Instagram and Facebook. You can also join our Discord server and our mailing list to receive more information about our events.

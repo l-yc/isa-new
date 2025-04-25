@@ -12,6 +12,8 @@ draft: false
 
 {{< ifair-schedule >}}
 
+{{< ifair-through-years >}}
+
 ## About iFair
 
 The international community at MIT comprises about 10.12% of the undergraduate and 41.95% of the graduate student body. iFair is MIT's premier international cultural festival, bringing together the diverse cultural clubs and communities on campus for a day of celebration, learning, and exchange.
