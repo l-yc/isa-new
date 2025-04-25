@@ -1,42 +1,56 @@
 ---
 title: "About Us"
-meta_title: "About"
-description: "this is meta description"
+meta_title: "About ISA"
+description: "The International Students Association (ISA) at MIT - Building bridges across cultures since 1976"
 #image: "/images/avatar.png"
 draft: false
 ---
 
-The international community at MIT comprises about 10.12% of the undergraduate and 41.95% of the graduate student body. (For specific statistics refer to the International Students Office).
+## Our Mission
 
-The International Student's Association at MIT works for and with MIT's international students, striving to promote cultural diversity on campus.
+The International Students Association (ISA) at MIT cultivates an inclusive, supportive environment where every student—no matter where they come from—can thrive. We:
 
-Although most of our members are international students, the ISA welcomes and encourages every MIT Student to join.
+- **Celebrate and share global cultures** through events and programming
+- **Provide social, academic, and professional resources** for international students
+- **Build lasting networks** among current, admitted, and former MIT internationals
 
-## Constitution
+## Our Community
 
-The ISA got recently re-recognized as an ASA club and has a renovated constitution.
+Nearly 1 in 10 undergraduates and 2 in 5 graduate students at MIT hail from outside the U.S. While ISA is driven by the needs of international students, all MIT students are welcome to join, learn, and contribute.
 
-## Activities
+For specific statistics, visit the [International Students Office](https://iso.mit.edu).
 
-The ISA's main activities are aimed at expressing the large cultural diversity that exists at MIT.
+## Our History & Governance
 
-- Fun-filled trips around the Boston and New-England area for multicultural bonding
-- Delicious study breaks with those international snacks that remind you of home
-- An international showcase known as the iFair
-- An evening on the Charles in the magnificent iCruise
-- Many other things so visit frequently our news and events spaces for more information
+Founded in 1976, ISA celebrates over four decades of bringing the world to MIT's doorstep—and we're gearing up for our 50th anniversary in 2026! 
+
+The ISA got recently re-recognized as an ASA club and has a renovated constitution. Read our full constitution [here](link-to-ISA-Constitution.pdf).
+
+## What We Do
+
+Our signature events bring together MIT's international community throughout the year:
+
+- **Yearly Fall Formal** — An elegant evening of cultural celebration, networking, and community-building
+- **iFair** — Our marquee spring showcase featuring 40+ club booths, performances, and global cuisine
+- **iCruise** — A sunset cruise on the Charles River for networking and fun
+- **International Study Breaks** — Fueled by home-country snacks and conversation
+- **Monthly Events** — Including mixers, culture talks, and career panels
 
 ## Get Involved
-Do you want to participate in the ISA? There are many things you can do!
 
-- Contribute with ideas and propose activities, we'll try to sponsor them and you can help us organise them!
-- Volunteer to help us during events! It's a great way to meet other international students
-- Give us your feedback about past events, our webpage, etc!
+There are many ways to become part of our vibrant community:
 
-## Social Media
+- **Pitch an Event**: Share your idea and lead planning with our support
+- **Volunteer**: Assist at iFair, cultural nights, and more—an easy way to meet people
+- **Give Feedback**: Help us refine past events, our website, or propose new features
+- **Run for Exec**: Elections open to all ISA members each semester
 
-Make sure you follow us on Instagram and Facebook. You can also join our Discord server and our mailing list to receive more information about our events.
+## Connect With Us
 
-## Contact
+Join our community and stay updated:
 
-Email us at isa-execcom@mit.edu!
+{{< social-links >}}
+- **Email**: [isa-execcom@mit.edu](mailto:isa-execcom@mit.edu)
+- **Instagram**: [@mit_isa](https://instagram.com/mit_isa)
+- **Facebook**: [MIT ISA](https://facebook.com/mitisa)
+{{< /social-links >}}
