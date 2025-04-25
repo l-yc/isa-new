@@ -1,188 +1,195 @@
-<div class="py-16 bg-gray-50">
-  <div class="container mx-auto px-4" id="schedule">
-    <h2 class="text-4xl font-bold text-[#1a365d] mb-12">Performance Schedule</h2>
-    <div class="space-y-6">
-      <!-- Opening Remarks -->
-      <div class="bg-white rounded-lg p-6 shadow-lg">
-        <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
-          <div>
-            <span class="text-[#1a365d] font-bold">12:00 - 12:10 PM</span>
-            <h3 class="text-xl font-semibold mt-2">Opening Remarks</h3>
-            <p class="text-gray-600">ISA</p>
+<div class="py-16 bg-gray-50" id="schedule">
+  <div class="container mx-auto px-4">
+    <h2 class="text-4xl font-bold text-[#1a365d] mb-8">Performance Schedule</h2>
+    
+    <!-- Scrollable schedule container -->
+    <div class="relative">
+      <!-- Timeline line -->
+      <div class="absolute left-0 top-0 bottom-0 w-1 bg-[#1a365d]/10 hidden md:block ml-24"></div>
+      
+      <div class="space-y-6 max-h-[600px] overflow-y-auto pr-4 scroll-smooth" style="scrollbar-width: thin;">
+        <!-- Opening Remarks -->
+        <div class="bg-white rounded-lg p-6 shadow-lg transform transition duration-300 hover:scale-[1.02] hover:shadow-xl">
+          <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+            <div>
+              <span class="text-[#1a365d] font-bold">12:00 - 12:10 PM</span>
+              <h3 class="text-xl font-semibold mt-2">Opening Remarks</h3>
+              <p class="text-gray-600">ISA</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Fashion Show -->
-      <div class="bg-white rounded-lg p-6 shadow-lg">
-        <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
-          <div>
-            <span class="text-[#1a365d] font-bold">12:10 - 12:30 PM</span>
-            <h3 class="text-xl font-semibold mt-2">Fashion Show</h3>
-            <p class="text-gray-600">ISA</p>
+        <!-- Fashion Show -->
+        <div class="bg-white rounded-lg p-6 shadow-lg transform transition duration-300 hover:scale-[1.02] hover:shadow-xl">
+          <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+            <div>
+              <span class="text-[#1a365d] font-bold">12:10 - 12:30 PM</span>
+              <h3 class="text-xl font-semibold mt-2">Fashion Show</h3>
+              <p class="text-gray-600">ISA</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Break Indicator -->
-      <div class="bg-gray-100 rounded-lg p-4 text-center">
-        <p class="text-gray-600 font-medium">Break</p>
-      </div>
+        <!-- Break Indicator -->
+        <div class="bg-gray-100 rounded-lg p-4 text-center transform transition duration-300 hover:scale-[1.02]">
+          <p class="text-gray-600 font-medium">Break</p>
+        </div>
 
-      <!-- Latin Dance -->
-      <div class="bg-white rounded-lg p-6 shadow-lg">
-        <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
-          <div>
-            <span class="text-[#1a365d] font-bold">12:50 - 12:55 PM</span>
-            <h3 class="text-xl font-semibold mt-2">Salsa, Bachata, & Merengue</h3>
-            <p class="text-gray-600">Latin Dance Club</p>
+        <!-- Latin Dance -->
+        <div class="bg-white rounded-lg p-6 shadow-lg transform transition duration-300 hover:scale-[1.02] hover:shadow-xl">
+          <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+            <div>
+              <span class="text-[#1a365d] font-bold">12:50 - 12:55 PM</span>
+              <h3 class="text-xl font-semibold mt-2">Salsa, Bachata, & Merengue</h3>
+              <p class="text-gray-600">Latin Dance Club</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Indonesian Dance -->
-      <div class="bg-white rounded-lg p-6 shadow-lg">
-        <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
-          <div>
-            <span class="text-[#1a365d] font-bold">1:00 - 1:05 PM</span>
-            <h3 class="text-xl font-semibold mt-2">Dance of Unity (Aceh Province)</h3>
-            <p class="text-gray-600">Association of Indonesian Students</p>
+        <!-- Indonesian Dance -->
+        <div class="bg-white rounded-lg p-6 shadow-lg transform transition duration-300 hover:scale-[1.02] hover:shadow-xl">
+          <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+            <div>
+              <span class="text-[#1a365d] font-bold">1:00 - 1:05 PM</span>
+              <h3 class="text-xl font-semibold mt-2">Dance of Unity (Aceh Province)</h3>
+              <p class="text-gray-600">Association of Indonesian Students</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Turkish Folk Music -->
-      <div class="bg-white rounded-lg p-6 shadow-lg">
-        <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
-          <div>
-            <span class="text-[#1a365d] font-bold">1:10 - 1:30 PM</span>
-            <h3 class="text-xl font-semibold mt-2">Turkish Folk Music</h3>
-            <p class="text-gray-600">Turkish Students Association</p>
+        <!-- Turkish Folk Music -->
+        <div class="bg-white rounded-lg p-6 shadow-lg transform transition duration-300 hover:scale-[1.02] hover:shadow-xl">
+          <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+            <div>
+              <span class="text-[#1a365d] font-bold">1:10 - 1:30 PM</span>
+              <h3 class="text-xl font-semibold mt-2">Turkish Folk Music</h3>
+              <p class="text-gray-600">Turkish Students Association</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Mariachi -->
-      <div class="bg-white rounded-lg p-6 shadow-lg">
-        <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
-          <div>
-            <span class="text-[#1a365d] font-bold">1:35 - 1:55 PM</span>
-            <h3 class="text-xl font-semibold mt-2">Mariachi Music and Folklórico Dance</h3>
-            <p class="text-gray-600">MIT Mariachi & Folklórico</p>
+        <!-- Mariachi -->
+        <div class="bg-white rounded-lg p-6 shadow-lg transform transition duration-300 hover:scale-[1.02] hover:shadow-xl">
+          <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+            <div>
+              <span class="text-[#1a365d] font-bold">1:35 - 1:55 PM</span>
+              <h3 class="text-xl font-semibold mt-2">Mariachi Music and Folklórico Dance</h3>
+              <p class="text-gray-600">MIT Mariachi & Folklórico</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Cuban Salsa -->
-      <div class="bg-white rounded-lg p-6 shadow-lg">
-        <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
-          <div>
-            <span class="text-[#1a365d] font-bold">2:00 - 2:05 PM</span>
-            <h3 class="text-xl font-semibold mt-2">Cuban Salsa</h3>
-            <p class="text-gray-600">MIT Casino Rueda</p>
+        <!-- Cuban Salsa -->
+        <div class="bg-white rounded-lg p-6 shadow-lg transform transition duration-300 hover:scale-[1.02] hover:shadow-xl">
+          <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+            <div>
+              <span class="text-[#1a365d] font-bold">2:00 - 2:05 PM</span>
+              <h3 class="text-xl font-semibold mt-2">Cuban Salsa</h3>
+              <p class="text-gray-600">MIT Casino Rueda</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Break Indicator -->
-      <div class="bg-gray-100 rounded-lg p-4 text-center">
-        <p class="text-gray-600 font-medium">Break</p>
-      </div>
+        <!-- Break Indicator -->
+        <div class="bg-gray-100 rounded-lg p-4 text-center transform transition duration-300 hover:scale-[1.02]">
+          <p class="text-gray-600 font-medium">Break</p>
+        </div>
 
-      <!-- Chinese Fan Dance -->
-      <div class="bg-white rounded-lg p-6 shadow-lg">
-        <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
-          <div>
-            <span class="text-[#1a365d] font-bold">2:25 - 2:30 PM</span>
-            <h3 class="text-xl font-semibold mt-2">Traditional Chinese Fan Dance Duet</h3>
-            <p class="text-gray-600">MIT Flow</p>
+        <!-- Chinese Fan Dance -->
+        <div class="bg-white rounded-lg p-6 shadow-lg transform transition duration-300 hover:scale-[1.02] hover:shadow-xl">
+          <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+            <div>
+              <span class="text-[#1a365d] font-bold">2:25 - 2:30 PM</span>
+              <h3 class="text-xl font-semibold mt-2">Traditional Chinese Fan Dance Duet</h3>
+              <p class="text-gray-600">MIT Flow</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Break Indicator -->
-      <div class="bg-gray-100 rounded-lg p-4 text-center">
-        <p class="text-gray-600 font-medium">Break</p>
-      </div>
+        <!-- Break Indicator -->
+        <div class="bg-gray-100 rounded-lg p-4 text-center transform transition duration-300 hover:scale-[1.02]">
+          <p class="text-gray-600 font-medium">Break</p>
+        </div>
 
-      <!-- Live Music -->
-      <div class="bg-white rounded-lg p-6 shadow-lg">
-        <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
-          <div>
-            <span class="text-[#1a365d] font-bold">2:50 - 3:00 PM</span>
-            <h3 class="text-xl font-semibold mt-2">Live Music by Student Musicians</h3>
-            <p class="text-gray-600">LIVE</p>
+        <!-- Live Music -->
+        <div class="bg-white rounded-lg p-6 shadow-lg transform transition duration-300 hover:scale-[1.02] hover:shadow-xl">
+          <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+            <div>
+              <span class="text-[#1a365d] font-bold">2:50 - 3:00 PM</span>
+              <h3 class="text-xl font-semibold mt-2">Live Music by Student Musicians</h3>
+              <p class="text-gray-600">LIVE</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Hong Kong Performance -->
-      <div class="bg-white rounded-lg p-6 shadow-lg">
-        <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
-          <div>
-            <span class="text-[#1a365d] font-bold">3:05 - 3:20 PM</span>
-            <h3 class="text-xl font-semibold mt-2">Hoi Fut Tin Hung - Beyond</h3>
-            <p class="text-gray-600">Hong Kong@MIT</p>
+        <!-- Hong Kong Performance -->
+        <div class="bg-white rounded-lg p-6 shadow-lg transform transition duration-300 hover:scale-[1.02] hover:shadow-xl">
+          <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+            <div>
+              <span class="text-[#1a365d] font-bold">3:05 - 3:20 PM</span>
+              <h3 class="text-xl font-semibold mt-2">Hoi Fut Tin Hung - Beyond</h3>
+              <p class="text-gray-600">Hong Kong@MIT</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Break Indicator -->
-      <div class="bg-gray-100 rounded-lg p-4 text-center">
-        <p class="text-gray-600 font-medium">Break</p>
-      </div>
+        <!-- Break Indicator -->
+        <div class="bg-gray-100 rounded-lg p-4 text-center transform transition duration-300 hover:scale-[1.02]">
+          <p class="text-gray-600 font-medium">Break</p>
+        </div>
 
-      <!-- Paraguayan Voices -->
-      <div class="bg-white rounded-lg p-6 shadow-lg">
-        <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
-          <div>
-            <span class="text-[#1a365d] font-bold">3:50 - 4:00 PM</span>
-            <h3 class="text-xl font-semibold mt-2">Voices from Paraguay</h3>
-            <p class="text-gray-600">MIT Paraguayan Association</p>
+        <!-- Paraguayan Voices -->
+        <div class="bg-white rounded-lg p-6 shadow-lg transform transition duration-300 hover:scale-[1.02] hover:shadow-xl">
+          <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+            <div>
+              <span class="text-[#1a365d] font-bold">3:50 - 4:00 PM</span>
+              <h3 class="text-xl font-semibold mt-2">Voices from Paraguay</h3>
+              <p class="text-gray-600">MIT Paraguayan Association</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- South Asian Fusion -->
-      <div class="bg-white rounded-lg p-6 shadow-lg">
-        <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
-          <div>
-            <span class="text-[#1a365d] font-bold">4:00 - 4:10 PM</span>
-            <h3 class="text-xl font-semibold mt-2">South Asian Fusion Acapella Arrangements</h3>
-            <p class="text-gray-600">Ohms</p>
+        <!-- South Asian Fusion -->
+        <div class="bg-white rounded-lg p-6 shadow-lg transform transition duration-300 hover:scale-[1.02] hover:shadow-xl">
+          <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+            <div>
+              <span class="text-[#1a365d] font-bold">4:00 - 4:10 PM</span>
+              <h3 class="text-xl font-semibold mt-2">South Asian Fusion Acapella Arrangements</h3>
+              <p class="text-gray-600">Ohms</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Taekwondo -->
-      <div class="bg-white rounded-lg p-6 shadow-lg">
-        <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
-          <div>
-            <span class="text-[#1a365d] font-bold">4:15 - 4:20 PM</span>
-            <h3 class="text-xl font-semibold mt-2">Taekwondo Demonstration</h3>
-            <p class="text-gray-600">MIT Sport TKD</p>
+        <!-- Taekwondo -->
+        <div class="bg-white rounded-lg p-6 shadow-lg transform transition duration-300 hover:scale-[1.02] hover:shadow-xl">
+          <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+            <div>
+              <span class="text-[#1a365d] font-bold">4:15 - 4:20 PM</span>
+              <h3 class="text-xl font-semibold mt-2">Taekwondo Demonstration</h3>
+              <p class="text-gray-600">MIT Sport TKD</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Lion Dance -->
-      <div class="bg-white rounded-lg p-6 shadow-lg">
-        <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
-          <div>
-            <span class="text-[#1a365d] font-bold">4:25 - 4:30 PM</span>
-            <h3 class="text-xl font-semibold mt-2">MIT Lion Dance Team</h3>
-            <p class="text-gray-600">MIT Lion Dance</p>
+        <!-- Lion Dance -->
+        <div class="bg-white rounded-lg p-6 shadow-lg transform transition duration-300 hover:scale-[1.02] hover:shadow-xl">
+          <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+            <div>
+              <span class="text-[#1a365d] font-bold">4:25 - 4:30 PM</span>
+              <h3 class="text-xl font-semibold mt-2">MIT Lion Dance Team</h3>
+              <p class="text-gray-600">MIT Lion Dance</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Closing Remarks -->
-      <div class="bg-white rounded-lg p-6 shadow-lg">
-        <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
-          <div>
-            <span class="text-[#1a365d] font-bold">4:35 - 4:45 PM</span>
-            <h3 class="text-xl font-semibold mt-2">Closing Remarks</h3>
-            <p class="text-gray-600">ISA</p>
+        <!-- Closing Remarks -->
+        <div class="bg-white rounded-lg p-6 shadow-lg transform transition duration-300 hover:scale-[1.02] hover:shadow-xl">
+          <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+            <div>
+              <span class="text-[#1a365d] font-bold">4:35 - 4:45 PM</span>
+              <h3 class="text-xl font-semibold mt-2">Closing Remarks</h3>
+              <p class="text-gray-600">ISA</p>
+            </div>
           </div>
         </div>
       </div>
