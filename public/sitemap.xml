@@ -2,39 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://isa.mit.edu/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://isa.mit.edu/categories/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/events/</loc>
+    <loc>https://isa.mit.edu/events/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/events/isa-formal-fall-2023/</loc>
+    <loc>https://isa.mit.edu/events/isa-formal-fall-2023/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mit/</loc>
+    <loc>https://isa.mit.edu/tags/mit/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/social/</loc>
+    <loc>https://isa.mit.edu/categories/social/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://isa.mit.edu/tags/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://isa.mit.edu/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>https://isa.mit.edu/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/elements/</loc>
+    <loc>https://isa.mit.edu/elements/</loc>
   </url><url>
-    <loc>http://localhost:1313/ifair/</loc>
+    <loc>https://isa.mit.edu/ifair/</loc>
   </url><url>
-    <loc>http://localhost:1313/pages/</loc>
+    <loc>https://isa.mit.edu/pages/</loc>
   </url><url>
-    <loc>http://localhost:1313/privacy-policy/</loc>
+    <loc>https://isa.mit.edu/privacy-policy/</loc>
   </url><url>
-    <loc>http://localhost:1313/sections/</loc>
+    <loc>https://isa.mit.edu/sections/</loc>
   </url>
 </urlset>
